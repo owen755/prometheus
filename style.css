@@ -19,6 +19,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-right: 10px;
+    font-weight: bold;
 }
 
 nav a {
