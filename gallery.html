@@ -10,6 +10,7 @@
 <body>
      <header>
             <nav class="navbar">
+                <button id="hamburger-menu" class="hamburger">☰</button>
                 <ul>
                     <li>
                         <a href="index.html" class="nav-link">Home</a>
@@ -45,8 +46,17 @@
 <h1 style="text-align: center;"><ins>Gallery</ins></h1>
          <img src="images/invest.jpg" alt="invest" style="display: block; margin: 0 auto; width: 200; height: auto;">
 <br>
-<img src="images/time.jpg" alt="time is money" style="display: block; margin: 0 auto; width: 200; height: auto;">
-<br>
-<img src="images/market.jpg" alt="forex" style="display: block; margin: 0 auto; width: 200; height: auto;">
+<main class="gallery-container">
+    <h1 style="text-align: center;"><ins>Gallery</ins></h1>
+
+    <div class="image-grid">
+        <img src="images/invest.jpg" alt="invest" class="grid-img">
+        <img src="images/time.jpg" alt="time is money" class="grid-img">
+        <img src="images/market.jpg" alt="forex" class="grid-img">
+        <!--collo Add the remaining 22 images here -->
+    </div>
+</main>
+
+ <script src="script.js"></script>
 </body>
 </html>

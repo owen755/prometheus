@@ -5,49 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROMETHEUS</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
     <body>
-      
-         <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
+        <div id="intro" aria-live="polite">
+            <div class="intro-overlay-grid"></div>
+            <div class="intro-dark"></div>
+            <div class="intro-center-text">
+                <span>PROMETHEUS</span>
+            </div>
+        </div>
+
+        <div id="main-site">
+            <header>
+                <nav class="navbar">
+                    <button id="hamburger-menu" class="hamburger">☰</button>
+                    <ul>
+                         <li>
+                        <a href="index.html" class="nav-link active">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html" class="nav-link">About</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="blog.html" class="nav-link">Blog</a>
                     </li>
                     <li>
-                        <a href="gallery.html">Gallery</a>
+                        <a href="gallery.html" class="nav-link">Gallery</a>
                     </li>
                     <li>
-                        <a href="blog.html">Blog</a>
+                        <a href="products.html" class="nav-link">Products</a>
                     </li>
                     <li>
-                        <a href="products.html">Products</a>
+                        <a href="services.html" class="nav-link">Services</a>
                     </li>
                     <li>
-                        <a href="testimonials.html">Testimonials</a>
+                        <a href="testimonials.html" class="nav-link">Testimonials</a>
                     </li>
                     <li>
-                        <a href="services.html">Services</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="faq.html" class="nav-link">FAQ</a>
                     </li>
-                    <li>
-                        <a href="faq.html">FAQ</a>
-                    </li>
-                </ul>
-            </nav>
-         </header>
-           <h1 style="text-align: center;"><ins>Welcome to Prometheus</ins></h1>
-         <h2 style="text-align: center;">Innovative Solutions for a Digital World</h2>
-          <img src="images/home.jpg" alt="Prometheus Logo" style="display: block; margin: 0 auto; width: 800px; height: auto;">
-         <p style="text-align: center;">Prometheus is a leading technology company dedicated to providing innovative solutions and services<br> to businesses worldwide. Our team of experts specializes in software development, hardware <br>integration, and cutting-edge technology solutions that empower organizations to achieve<br> their goals. Explore our website to learn more about our products, services, <br>and the impact we have made in the industry.</p>
-    </body>
+                    </ul>
+                </nav>
+            </header>
+<div class="hero-container">
+
+  <video autoplay loop muted playsinline class="bg-video">
+    <source src="videos/invest.mp4" type="video/mp4" />
+  </video>
+  <div class="hero-content glass-card">
+    <h1>Prometheus</h1>
+    <h2>Innovative Solutions for a Digital World</h2>
+    <p>
+      Prometheus is a leading technology company dedicated to providing innovative solutions and services to businesses worldwide. Our team of experts specializes in software development, hardware integration, and cutting-edge technology solutions that empower organizations to achieve their goals.
+    </p>
+  </div>
+</div>
+     <script src="script.js"></script>
+        </body>
 
 </html>
